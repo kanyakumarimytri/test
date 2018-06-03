@@ -1,0 +1,19 @@
+
+<div class='panel panel-success' style="max-width:500px;">
+
+    <div class="panel-heading">{{recipe.title}}</div>
+
+    <div class="panel-body">
+        <div class="cover-photo-holder" *ngIf="recipe.cover_photo">
+            <img hidden="{{recipe.cover_photo ? 'false' : 'true' }}"src="recipe.cover_photo ? recipe.cover_photo : '/assets/img/paneer.jpg'}}">
+        </div>
+            <P>{{recipe.description}}<p>
+                <div>
+                <div class='data-title'>Preparation Time:</div>
+                <div>{{recipe.preparation_time}}</div>
+                <div class='data-title'>Feeds how many:</div>
+                <div>{{recipe.feeds_this_many}}</div>
+               </div>
+    </div>
+
+</div>
