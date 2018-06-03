@@ -1,0 +1,17 @@
+body {
+    max-width:500px;
+}
+h1{
+    font-size:160%;
+}
+
+.darkbg {
+    background-color: #aaaaaa;
+}
+div.input-group{
+    margin: 5px 0;
+}
+div.input-group textarea {
+    margin: 5px 0;
+    width: 500px;
+}
